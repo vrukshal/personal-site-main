@@ -1,11 +1,11 @@
 {
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://vrukshal.github.io/personal-site-main",
   "name": "personal-site",
   "version": "4.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/vrukshal/personal-site-main.git"
   },
   "engines": {
     "node": ">=16.x"
