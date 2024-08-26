@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vrukshal.github.io/my-app",
+  "homepage": "https://vrukshal.github.io/personal-site-main",
   "name": "personal-site",
   "version": "4.0.0",
   "homepage": "https://mldangelo.com/",
@@ -12,12 +12,11 @@
     "node": ">=16.x"
   },
   "scripts": {
-    
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
     "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
-    "predeploy": "npm run build && react-snap",
     "start": "react-scripts start",
     "test": "npx jest"
   },
