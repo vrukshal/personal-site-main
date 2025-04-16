@@ -1,26 +1,27 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
+    title: 'Secure Messaging using  Microservices Architecture',
     subtitle: '2015 BVP Hackathon',
     image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    date: '2024-05-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Built using Spring Boot, Docker, Kubernetes, Kafka '
+      + 'Built microservices for authentication, messaging, upload, and notifications, supporting 10,000+ users'
+      + 'Used JWT, WebSocket, and Kafka to enhance security, messaging, and media handling, reducing latency by 20%'
+      + 'Deployed via CI/CD, improving deployment speed by 30% and cutting server costs by 15%.',
   },
   {
-    title: 'Harvest',
+    title: 'JobSucces Platform',
     subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
     link: 'https://devpost.com/software/harvest',
     image: '/images/projects/harvest.jpg',
     date: '2015-09-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Built using FireBase, Express, React, Jenkins, Kubernates, AWS, Google APIs  '
+        + 'a job application platform for candidates and recruiters to manage listings and applications, '
+      + 'Integrated Google Auth, AWS S3 for file storage, and Gemini API for resume analysis '
+      + 'and Implemented CI/CD with Jenkins and Kubernetes for automated testing and deployment on EC2.',
   },
   {
     title: 'Space Potato',
